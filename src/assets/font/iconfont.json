@@ -1,0 +1,16 @@
+{
+  "id": "4590003",
+  "name": "知识库",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1243",
+      "name": "撤销",
+      "font_class": "chexiao",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
