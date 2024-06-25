@@ -20,6 +20,14 @@ const handleSeach = () => {
 const handleGoBack = () => {
   router.back();
 };
+const handleItem = () => {
+  router.push({
+    path: "/list",
+    query: {
+      inp: "11",
+    },
+  });
+};
 </script>
 
 <template>
@@ -72,7 +80,7 @@ const handleGoBack = () => {
             <el-icon style="margin-right: 6px">
               <Document />
             </el-icon>
-            <span class="name">文件名称</span>
+            <span class="name" @click="handleItem">文件名称</span>
           </div>
           <div class="info">
             <span>分类</span>
